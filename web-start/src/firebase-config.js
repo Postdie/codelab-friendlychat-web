@@ -20,12 +20,12 @@
 //appId: "1:469847416013:web:78eaab37d1eb38f2fb9d84"
 //};
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
+//import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
+const config = {
   apiKey: "AIzaSyBcnJ2ATnbsCqHRuxKC3jELYsuhI5kZ8eU",
   authDomain: "friendlychat-50379.firebaseapp.com",
   projectId: "friendlychat-50379",
@@ -35,7 +35,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+//const app = initializeApp(firebaseConfig);
 export function getFirebaseConfig() {
   if (!config || !config.apiKey) {
     throw new Error('No Firebase configuration object provided.' + '\n' +
